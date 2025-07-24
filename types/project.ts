@@ -3,6 +3,6 @@ export interface Project {
   name: string;
   url: string;
   tags: string[];
-  description: string;        // ← we need this, since you do `project.tags.map(...)`
+  description: string;
   // …any other fields your API returns
 }
